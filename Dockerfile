@@ -1,9 +1,8 @@
-#!/bin/bash
 FROM arm64v8/openjdk:jre-alpine
 
 COPY qemu-aarch64-static /usr/bin/
 COPY qemu-arm-static /usr/bin/
-
+SHELL ["/bin/sh", "-c"]
 MAINTAINER PlusMinus <piddlpiddl@gmail.com>
 
 # Create directory, and start JD2 for the initial update and creation of config files.
