@@ -1,3 +1,4 @@
+#!/bin/bash
 FROM arm64v8/openjdk:jre-alpine
 
 COPY qemu-aarch64-static /usr/bin/
