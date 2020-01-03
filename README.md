@@ -1,12 +1,7 @@
-[![Build Status](https://travis-ci.com/PlusMinus0/headless-jd2-docker.svg?branch=master)](https://travis-ci.com/PlusMinus0/headless-jd2-docker)
-# Supported tags
- * [`latest`, `debian`, `v3.0-debian` (debian.Dockerfile)](https://github.com/PlusMinus0/headless-jd2-docker/blob/master/debian.Dockerfile)
- * [`alpine`, `v3.0-alpine` (alpine.Dockerfile)](https://github.com/PlusMinus0/headless-jd2-docker/blob/master/alpine.Dockerfile)
- * [`dev-debian` (debian.Dockerfile)](https://github.com/PlusMinus0/headless-jd2-docker/blob/dev/debian.Dockerfile)
- * [`dev-alpine` (alpine.Dockerfile)](https://github.com/PlusMinus0/headless-jd2-docker/blob/dev/alpine.Dockerfile)
- * [`v2.1` (Dockerfile)](https://github.com/PlusMinus0/headless-jd2-docker/blob/v2.1/Dockerfile)
- * [`v2.0` (Dockerfile)](https://github.com/PlusMinus0/headless-jd2-docker/blob/v2.0/Dockerfile)
+# Fork info
+This is a docker image based primarily on https://github.com/PlusMinus0/headless-jd2-docker and on https://github.com/jaymoulin/docker-jdownloader docker images. 
 
+It is created to run on arm64 archs. Especially it runs on root only Kodi distros like LibreElec, CoreElec etc. 
 
 # Running the container
 
